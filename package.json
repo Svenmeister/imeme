@@ -1,0 +1,22 @@
+{
+  "name": "imeme",
+  "version": "1.0.0",
+  "description": "A multi-purpose discord bot.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Svenmeister/imeme.git"
+  },
+  "author": "Svenmeister",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Svenmeister/imeme/issues"
+  },
+  "homepage": "https://github.com/Svenmeister/imeme#readme",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
+}
