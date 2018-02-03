@@ -9,6 +9,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.3.0"
+    "cat-facts": "^1.0.2",
+    "discord.js": "^11.3.0",
+    "util": "^0.10.3"
   }
 }
