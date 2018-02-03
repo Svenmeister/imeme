@@ -52,17 +52,14 @@ commands.help.main = function(bot, msg) {
         }
     }
 
-	let embed = {
+	msg.channel.send({embed: {
 		color: bot.COLOR,
 		description: "Here are a list of commands you can use.",
 		fields: cmds,
 		footer: {
 			icon_url: bot.user.avatarURL,
 			text: bot.user.username
-		}
-	}
-
-	msg.channel.sendMessage('', {embed});
+		}});
 }
 
 commands.load = {};
